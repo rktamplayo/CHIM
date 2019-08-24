@@ -4,17 +4,15 @@
 This PyTorch code was used in the experiments of the research paper
 
 Reinald Kim Amplayo.
-[**Rethinking Attribute Representation and Injection for Sentiment Classification**. _EMNLP_, 2019.]()
+[**Rethinking Attribute Representation and Injection for Sentiment Classification**](https://rktamplayo.github.io/publications/emnlp19.pdf). _EMNLP_, 2019.
 
 ### Data
 
 IMDB, Yelp2013, and Yelp2014 datasets are originally from [here](https://drive.google.com/open?id=1PxAkmPLFMnfom46FMMXkHeqIxDbA16oy). I did some changes, which I cannot unfortunately recall everything, with the format (not the content) of the file (e.g., changed the ordering of the input and output, etc.).
 
-I am therefore sharing my version of the above datasets, as well as the Amazon datasets in the paper, in [this link]().
+I am therefore sharing my version of the above datasets, as well as the Amazon datasets in the paper, in [this link](https://drive.google.com/open?id=1pcyaXMTx6UAN3mNGUuXsfx0zEffy6IPG). The link will direct you to a directory named `data`. You will need to download [GloVe vectors](https://nlp.stanford.edu/projects/glove/) as well and save the file as `glove.txt` inside the `data` directory.
 
-If you are using any of the above three datasets, please cite the original paper. The BibTeX is shown at the end.
-
-Decompress all files, and save all the dataset directories in a directory named `data`.
+If you are using any of the above three datasets, please also cite the original paper. The BibTeX is shown at the end.
 
 ### Train and Evaluate CHIM
 
