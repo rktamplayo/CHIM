@@ -121,3 +121,21 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+data/amazon/dev.category.txt
+data/amazon/dev.headline.txt
+data/amazon/dev.txt
+data/amazon/test.category.txt
+data/amazon/test.headline.txt
+data/amazon/test.txt
+data/amazon/train.category.txt
+data/amazon/train.headline.txt
+data/amazon/train.txt
+data/imdb/dev.txt
+data/imdb/test.txt
+data/imdb/train.txt
+data/yelp2013/dev.txt
+data/yelp2013/test.txt
+data/yelp2013/train.txt
+data/yelp2014/dev.txt
+data/yelp2014/test.txt
+data/yelp2014/train.txt
