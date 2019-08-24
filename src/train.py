@@ -25,11 +25,10 @@ num_categories = 2
 basis = 0
 
 data_type = sys.argv[1]
-lang = sys.argv[2]
-inject_type = sys.argv[3] # none, bias, weight, weight.imp, etc.
+inject_type = sys.argv[2] # none, bias, weight, weight.imp, etc.
 if 'chunk' in inject_type:
-    basis = int(sys.argv[6])
-inject_locs = sys.argv[4].split(',') # embed, encode, pool, classify
+    basis = int(sys.argv[5])
+inject_locs = sys.argv[3].split(',') # embed, encode, pool, classify
 device = sys.argv[-1].split(':')[-1]
 os.environ['CUDA_VISIBLE_DEVICES'] = device
 
