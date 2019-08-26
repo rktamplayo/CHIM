@@ -139,3 +139,4 @@ data/yelp2013/train.txt
 data/yelp2014/dev.txt
 data/yelp2014/test.txt
 data/yelp2014/train.txt
+.DS_Store
