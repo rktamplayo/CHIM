@@ -8,7 +8,7 @@ from tqdm import tqdm
 import sys
 import os
 
-dim = int(sys.argv[5])
+dim = int(sys.argv[4])
 word_dim = 300
 embed_dim = dim
 hidden_dim = dim
